@@ -9,10 +9,12 @@ def fizzbuzz(number)
     puts "Buzz"
   end
   
-  if number % 3
+  if number % 3 == 0 && number % 5 == 0 
+    puts "FizzBuzz"
+  end 
   
-  
-  
+  if number % 3 != 0 && number % 5 !=0 
+    puts nil
   
   
 end
